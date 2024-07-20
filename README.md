@@ -10,22 +10,22 @@
 * Считать количество PEP в каждом статусе и общее количество PEP.
 * Сохранять результат в табличном виде в csv-файл.
 ## Работа с проектом
-Склонировать проект
- ```git clone <> ```
-В директории проекта создайте и активируйте виртуальное окружение, обновите менеджер пакетов pip и установите зависимости из файла requirements.txt.
- ```cd bs4_parser_pep ```
- ```python -m venv venv ```
- ```source venv/Scripts/activate ```
- ```python -m pip install --upgrade pip ```
- ```pip install -r requirements.txt ```
-Сбор ссылок на статьи о нововведениях в Python:
- ```python main.py whats_new ```
-Сбор информации о версиях Python:
- ```python main.py latest_versions ```
-Скачивание архива с актуальной документацие:
- ```python main.py download ```
-Сбор статусов документов PEP:
- ```python main.py pep ```
+Склонировать проект  
+ ```git clone <> ```  
+В директории проекта создайте и активируйте виртуальное окружение, обновите менеджер пакетов pip и установите зависимости из файла requirements.txt.  
+ ```cd bs4_parser_pep ```  
+ ```python -m venv venv ```  
+ ```source venv/Scripts/activate ```  
+ ```python -m pip install --upgrade pip ```  
+ ```pip install -r requirements.txt ```  
+Сбор ссылок на статьи о нововведениях в Python:  
+ ```python main.py whats_new ```  
+Сбор информации о версиях Python:  
+ ```python main.py latest_versions ```  
+Скачивание архива с актуальной документацие:  
+ ```python main.py download ```  
+Сбор статусов документов PEP:  
+ ```python main.py pep ```  
 
 Автор проекта Екатерина https://github.com/Kate1109
 
